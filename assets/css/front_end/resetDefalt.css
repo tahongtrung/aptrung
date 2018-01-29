@@ -1,0 +1,86 @@
+
+
+a {
+    text-decoration: none
+}
+
+body {
+    font-family: arial;
+    font-size: 12px
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer
+}
+* {
+    margin: 0;
+    padding: 0
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+ul, ol {
+    padding: 0;
+    margin: 0
+}
+.clearfix-5{
+    clear: both;
+    width: 100%;
+    height: 5px;
+}
+
+.clearfix-10{
+    clear: both;
+    width: 100%;
+    height: 10px;
+}
+
+.clearfix-15{
+    clear: both;
+    width: 100%;
+    height: 15px;
+}
+
+.clearfix-20{
+    clear: both;
+    width: 100%;
+    height: 20px;
+}
+.clearfix-25{
+    clear: both;
+    width: 100%;
+    height: 25px;
+}
+.clearfix-30{
+    clear: both;
+    width: 100%;
+    height: 30px;
+}
+.clearfix-35{
+    clear: both;
+    width: 100%;
+    height: 35px;
+}
+.clearfix-40{
+    clear: both;
+    width: 100%;
+    height: 40px;
+}
+.w_100{
+    width: 100%!important;
+}
+.content{
+    margin-bottom: 10px;
+    line-height: 23px;
+    text-align: justify;
+    font-size: 13px;
+    padding: 10px;
+}
+.content img, .content table{
+    max-width: 100%!important;
+    height: auto!important;
+    margin: 5px 0px;
+}

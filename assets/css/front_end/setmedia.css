@@ -1,0 +1,159 @@
+
+@media (min-width:1200px) /* lg*/ {
+    .top{background: url(../img/banner222.jpg) no-repeat;background-size: 100% 100%;height: 166px;padding: 15px 0px;}
+    .container, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    .row {
+        margin-left: -5px !important;
+        margin-right: -5px !important;
+    }
+    .container{
+        width: 1000px;
+    }
+    .row-13{
+        margin-left: -13px !important;
+        margin-right: -13px !important;
+    }
+    .pdd-13{
+        padding-right: 13px!important;
+        padding-left: 13px!important;
+    }
+    .row-10{
+        margin-left: -10px !important;
+        margin-right: -10px !important;
+    }
+    .pdd-10{
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+    }
+    .text-detail{
+        padding-left: 15px;
+    }
+    .slg{padding-top: 43px !important;}
+    .hotline-top{
+        padding-top: 100px;
+        color: #014b92;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .col-left{padding-right: 0px !important;}
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px) /* md*/{
+     .top{background: url(../img/bannertop.png) no-repeat;background-size: 100% 100%;height: 166px;padding: 15px 0px;}
+    .hotline-top{
+        padding-top: 100px;
+        color: #014b92;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .slg{padding-top: 43px !important;}
+    .container, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    .row {
+        margin-left: -5px !important;
+        margin-right: -5px !important;
+    }
+    .pdd-5{
+        padding-right: 5px!important;
+        padding-left: 5px!important;
+    }
+    .row-13{
+        margin-left: -13px !important;
+        margin-right: -13px !important;
+    }
+    .pdd-13{
+        padding-right: 13px!important;
+        padding-left: 13px!important;
+    }
+
+    .container{
+        max-width: 1000px;
+    }
+    .menu-item{
+        padding:0px 15px!important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) /* sm */{
+    .hotline-top{
+        font-size: 12px!important;
+    }
+    .hotline-top-item a{
+        font-size: 15px!important;
+    }
+    .form-search{
+        width: 100%!important;
+    }
+    .menu-item{
+        padding: 0px 27px!important;
+    }
+    .box-prd{
+        margin-bottom: 15px;
+    }
+    .clearfix-sm{
+        clear: both;
+    }
+}
+@media (max-width:767px)  /* xs */{
+    .name-detail{font-size: 16px;margin-top: 15px;}
+    .menu_mb{
+        padding: 5px 0px;
+        text-align: center;
+    }
+    .menu_mb img{
+        margin-left: 60px;
+        height: 60px;
+        width: auto;
+    }
+    .hot-line-xs{
+        margin:15px 15px 0px 0px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .hot-line-xs i{
+        font-size: 20px;
+        margin-right: 5px;
+        font-weight: normal;
+        color: #242424;
+    }
+    .form-search{
+        width: 100% !important;
+    }
+    .menu_main .active{
+        background:#333 !important;
+    }
+    .menu_main li{
+        background:#477d00 !important;
+    }
+    .nav-dropdown li:first-child{
+        border-bottom: 0!important;
+        background: #66b300 !important;
+    }
+    .box-prd{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:480px) {
+
+
+}
+@media (max-width:430px){
+    .col-430{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+<a href="<?=base_url()?>" title="<?=@$this->option->site_name?>">Trang chủ</a>
+<?=creat_break_crum($type,$lists,$id);?>&nbsp;<i class="fa fa-angle-double-right"></i>&nbsp;<a href="javascript:void(0)"><?=@$name;?></a>

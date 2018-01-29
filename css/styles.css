@@ -1,0 +1,388 @@
+ul,ol{
+    padding: 0;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+section.top1{
+}
+.col-md-3.logo{
+    padding-left: 0;
+    padding-right: 0;
+}
+.col-md-9.text{
+    padding:0;
+}
+.logo{
+    padding-top: 30px;
+    padding-bottom: 31px;
+}
+.text h1{
+    font-family: "UTM HelvetIns";
+    padding-top: 6px;
+    color: #2e6eb3;
+    font-size: 36px;
+    text-align: left;
+    text-shadow: 3px 3px 3px #cccccc;
+}
+.text p{
+    font-family: "UTM HelvetIns";
+    margin: 0 auto;
+    font-size: 24px;
+    color: #ff0000;
+    text-align: right;
+    text-shadow: 3px 3px 3px #cfcfcf;
+}
+section.top2{
+    background: linear-gradient(#0e5da9, #3773b6);
+    position: relative;
+}
+.nav .dropdown-toggle .caret{
+    margin-top: 0px;
+    border-top-color: white;
+}
+.pull-left.menu{
+    margin: 0 auto;
+}
+.pull-right.search{
+    position: relative;
+    padding: 6px 0px;
+}
+.pull-right.search button{
+    position: absolute;
+    right: 0;
+    margin-top: -26px;
+    border: none;
+    padding: 5px;
+    border-left: 2px solid silver;
+    background: white;
+    height: 26px;
+    width: 30px;
+}
+.pull-right.search input{
+    height: 26px;
+    padding: 0px 5px;
+    border: none;
+}
+div#bs-example-navbar-collapse-1{
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+}
+.nav{
+    margin: 0 auto;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.nav li i{
+    position: absolute;
+    padding: 9px 0px;
+    color: white;
+    font-size: 20px;
+}
+.nav li a{
+    padding: 9px 25px 9px 25px;
+    position: relative;
+}
+.navbar-collapse{
+    padding: 0;
+}
+
+.col-md-3.left{
+    padding: 0;
+}
+.boxx{
+    border: 1px solid silver;
+    border-radius: 5px;
+    position: relative;
+}
+.top h2{
+    font-family: Arial;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    background: url("../img/bg.png") no-repeat left;
+    color: white;
+    padding: 11px 0px 15px 0px;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+.boder h2{
+    font-family: Arial;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    background: url("../img/bg.png") no-repeat left;
+    color: white;
+    border-bottom: 1px solid silver;
+    padding: 7px 0px 12px 0px;
+    margin-top: auto;
+}
+.boxx h2 i{
+    padding-right: 8px;
+}
+.boxx h2 i:before{
+    padding-top: 6px;
+    font-size: 16px;
+}
+.boxx.video img{
+    width: 100%;
+    padding: 0px 5px 15px 5px;
+}
+.info ul{
+    padding: 0px 5px;
+}
+.info ul li{
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.info ul li label{
+    padding-left: 12px;
+}
+.info ul li a{
+    position: absolute;
+    padding: 5px 30px;
+}
+.icon-double-angle-right:before{
+    padding-right: 3px;
+}
+.info ul li a span{
+    padding: 0px 10px;
+}
+.info label{
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial;
+}
+.info label span{
+    font-family: 'UTM HelvetIns';
+    color: red;
+    font-size: 24px;
+    padding: 5px 10px 0px 0px;
+    position: absolute
+}
+.info p{
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial;
+    color: red;
+    border-bottom: 1px dashed silver;
+    padding-left: 22px;
+    padding-bottom: 5px;
+    margin-top: -5px;
+    position: relative;
+}
+.boxx.sanpham img{
+    padding: 5px;
+    width: 100%;
+}
+.boxx.sanpham label{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0e5da9;
+    padding: 0px 27px;
+    text-align: center;
+}
+.danhmuc{
+    padding:0px 5px 5px 5px;
+}
+.danhmuc li{
+    border-bottom: 1px dashed silver;
+    padding: 8px 0px;
+}
+.danhmuc li.menu-item{
+    padding-left: 18px;
+    font-size: 12px;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.danhmuc li.menu-item:before{
+    content: " ";
+    width: 15px;
+    height: 29px;
+    left: 0;
+    top: 1.5px;
+    position: absolute;
+    background: url("../img/icon.png") no-repeat center;
+}
+.danhmuc li  a{
+    color: black;
+    text-decoration: none;
+}
+.menu-child li {
+    padding-left: 30px;
+}
+ul.menu-child {
+    font-size: 12px;
+}
+.col-md-9.content{
+    text-align: left;
+}
+
+.content h3{
+     border-bottom: 1px solid slateblue;
+     color: blue;
+     text-transform: uppercase;
+     font-size: 12px;
+     font-weight: bold;
+     padding-bottom: 17px;
+ }
+.content h3 span{
+     border-bottom: 2px solid darkblue;
+     padding-bottom: 15px;
+ }
+.thumb{
+    border: 1px solid silver;
+}
+.sp{
+    text-align: center;
+}
+.tittle button{
+    background: none;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding: 5px 14px;
+    color: silver;
+    font-size: 12px;
+}
+.tittle h4{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0e5da9;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+.tittle p{
+    color: red;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.chitiet{
+    color: silver;
+    text-decoration: none;
+    background: white;
+    border: 1px solid silver;
+    padding: 5px 14px;
+    border-radius: 5px;
+    float: center;
+}
+.anh{
+    border: 1px solid silver;
+}
+.chitietanh p{
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 15px;
+    line-height: 22px;
+}
+.chitietanh p span{
+    color: blue;
+    font-weight: bold;
+}
+.trai a{
+    float: right;
+    color: red;
+    font-style: italic;
+}
+.anhsp {
+    float: left;
+    width: 20%;
+    border: 1px solid silver;
+}
+.nds{
+    width: 80%;
+    float: right;
+}
+.nds p{
+    padding-left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+    margin: 0 auto;
+}
+.nds a{
+    color: red;
+    font-size: 12px;
+    float: right;
+}
+.doitac h3{
+    border-bottom: 1px solid slateblue;
+    color: blue;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    margin: 0px 15px;
+}
+.doitac h3 span{
+    border-bottom: 2px solid blue;
+    padding-bottom: 15px;
+}
+.bao{
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.col-md-3.sanp{
+    margin-bottom: 15px;
+}
+.boxsp{
+    margin-bottom: 10px;
+}
+.sanpham{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.footer{
+    background: #2368b0;
+}
+.col-md-4.col-xs-12{
+    padding: 28px 0px;
+}
+.col-md-4.col-xs-12 img{
+    padding-top: 20px;
+    width: 100%;
+    padding-right: 15px;
+    margin-left: 35px;
+}
+.col-md-4.col-xs-12 h5{
+    font-family: "UTM HelvetIns";
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.col-md-4.col-xs-12 p{
+    font-size: 12px;
+    color: white;
+}
+.owl-nav.disabled {
+    display: block!important;
+    top: 25px;
+    font-size: 20px;
+    color: blue;
+}
+.owl-carousel.teachers-carousel.owl-loaded.owl-drag{
+    padding: 0px 42px;
+}
+.owl-prev{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.owl-next{
+    position: absolute;
+    right: 0px;
+    top:30px;
+    padding-right: 15px;
+}

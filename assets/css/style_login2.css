@@ -1,0 +1,124 @@
+* ul{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    font-family: Arial;
+    font-size: 13px;
+}
+* li{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1024px;
+    }
+}
+.wrapper{
+    width: 100%;
+    min-height: 600px;
+    padding-bottom: 15px;
+}
+.wrapper1{
+    padding: 5px;
+    border-radius: 10px;
+    background: #f7f7f7;
+    border: 1px #cccccc solid;
+    -webkit-box-shadow: -1px 0px 24px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 24px -8px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 24px -8px rgba(0,0,0,0.75);
+}
+.banner{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+    max-height: 150px;
+}
+
+.menu{
+    background: #00a1ef;
+
+}
+.menu li{
+    display: block;
+    line-height: 28px;
+    float: left;
+}
+.menu li:hover {
+    opacity: 0.7;
+
+}
+.menu li a{
+    padding: 0px 10px;
+    font-weight: bold;
+	color: #fff;
+    font-family: Arial;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-right: 2px #fff solid;
+    -webkit-box-shadow: -16px -8px 8px -18px rgba(0,0,0,0.75);
+    -moz-box-shadow: -16px -8px 8px -18px rgba(0,0,0,0.75);
+    box-shadow: -16px -8px 8px -18px rgba(0,0,0,0.75);
+}
+.menu li:last-child a{border-right: none}
+.menu li:last-child{
+    right: 50px;
+}
+.site_main{
+    padding-top: 10px;
+}
+.line{
+    padding-top: 14px;
+    margin-bottom: 2px;
+    /*background: url("..images/img/line2.png") repeat-x bottom;*/
+}
+.slide{
+  height: 305px;
+    overflow: hidden;
+}
+.slide img{
+   height: 333px;
+}
+.title_frm{
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    /*background: url("..images/img/line3.png") no-repeat -192px 31px;*/
+}
+.login_frm{
+    background: #e9feff;
+    padding: 7px 10px;
+    border: 1px solid  #e3c6cf;
+}
+/*.login_frm input{*/
+    /*width: 90%;*/
+    /*padding: 3px;*/
+/*}*/
+/*.login_frm input[type=checkbox]{
+    width: 20px;
+    padding-top: 5px;
+}*/
+.login_main{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 5px;
+}
+.hr{
+    padding: 10px;
+    margin-bottom: 25px;
+    border-bottom: 1px #cccccc solid;
+}
+footer{
+    border-top: 1px #cccccc solid;
+    height: 50px;
+    margin: 3px -5px 0px -5px;
+    padding-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+
+#my-menu .navbar.navbar-default {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+#my-menu .search-fi {
+    border: 1px solid #0088cc;
+    padding: 0;
+}
+
+#my-menu .navbar-default .navbar-nav > .active > a, #my-menu .navbar-default .navbar-nav > .active > a:focus, #my-menu .navbar-default .navbar-nav > .active > a:hover {
+    background: transparent;
+    color: #2c97de;
+}
+
+#my-menu .navbar.navbar-default .navbar-brand {
+    font-size: 30px;
+    color: #2c97de;
+}
+
+#my-menu .navbar.navbar-default {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+#my-menu .form-group input, #my-menu .btn.btn-default {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+#my-menu .btn.btn-default:hover {
+    background: transparent;
+    color: #0088cc;
+}
+
+#my-menu .navbar-default .navbar-nav > .open > a, #my-menu .navbar-default .navbar-nav > .open > a:focus, #my-menu .navbar-default .navbar-nav > .open > a:hover {
+    background-color: transparent;
+    color: #0088cc;
+}
+
+#my-menu .navbar.navbar-default .dropdown-menu a::before {
+    content: none;
+}
+.MenuMobile {
+    display: none;
+}
+.menu-button {
+    position: relative;
+    display: block;
+    padding: 1em;
+    cursor: pointer;
+    background: #fd7603;
+    float: right;
+    top: 5px;
+}
+.menu-button .touch-button {
+    background: transparent;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    display: none;
+}
+.menu-button .touch-button .navicon {
+    font-size: 16px;
+    position: relative;
+    top: 1em;
+    color: #666;
+}
+.nav li:hover > ul {
+    display: block !important;
+}
+.navbar .nav>li>a{
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+.navbar-header{
+    margin: 0px!important;
+}
+.nav>li>a{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    /*text-transform: uppercase;*/
+}
+.nav>li>a:hover{
+    text-decoration: none;
+    color: #2c97de;
+}

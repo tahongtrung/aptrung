@@ -1,0 +1,59 @@
+.menu_sim ul{
+    padding: 0px;
+}
+.menu_sim{
+    margin-top: -10px;
+}
+.menu_sim li{
+    list-style: none;
+    padding: 5px 10px ;
+    float: left;
+    font-size: 13px;
+    /*background: #428bca;*/
+    position: relative;
+}
+.menu_sim li a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu_sim li ul{
+    display: none;
+    width: 150px;
+    font-size: 13px;
+    margin: 5px -10px;
+    border-top: 1px #fff dotted;
+    position: absolute;
+}
+.menu_sim li:hover ul{
+    display: block;
+}
+.menu_sim li li{
+    width: 100%;
+    border-bottom: 1px dotted #fff;
+    background: #428bca;
+}
+.menu_sim li:hover{
+    /*background: #357ebd;*/
+}
+.menu_sim li select{
+    padding: 3px;
+}
+
+.action_i a .fa-times{
+    color: #ac241c;
+    font-size: 22px;
+}
+.action_i a:hover .fa-times{
+    color: red;
+}
+.action_i a{
+    color: #428bca !important;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.action_i a:hover{
+    color: #0000ff !important;
+}

@@ -1,0 +1,63 @@
+.icon-search:before {
+	content: '\f50d';
+}
+.icon-basket:before {
+	content: '\e8c2';
+}
+icon-right-thin:before {
+	content: '\e80a';
+}
+icon-left-thin:before {
+	content: '\e800';
+}
+.icon-up:before {
+	content: '\e804';
+}
+.icon-down:before {
+	content: '\e807';
+}
+
+.icon-truck:before {
+	content: '\e8ab';
+}
+.icon-dollar:before {
+	content: '\e8a9';
+}
+.icon-clock:before {
+	content: '\e895';
+}
+.icon-flight:before {
+	content: '\e8a5';
+}
+.rating .icon-star:before {
+	content: '\2665';
+}
+.icon-mail:before {
+	content: '\e811';
+}
+.es-nav a.btn, .flex-direction-nav a, .flexslider.banners .flex-direction-nav a, .flexslider.vertical .flex-direction-nav a, .jcarousel-container a.jcarousel-next, .jcarousel-container a.jcarousel-prev,
+.jcarousel-skin-brands a.btn,
+.direction-nav a {
+	background-color: #fff;
+	color: #a3a098;
+	font-size:20px;
+}
+.flexslider.vertical .flex-direction-nav i {
+	margin-top: 5px;
+}
+.direction-nav a i {
+	margin-left: 3px;
+}
+
+a.btn.rounded.dark[class^="icon-"]:after, a.btn.rounded.dark[class*=" icon-"]:after {
+	background-color: #ff0078;
+	border-color: #ff0078;
+}
+a.btn.icon-4x.rounded[class*=" icon-"] {
+	border-color: #ff0078;
+}
+.custom_blocks .btn_outer {
+	display: inline-block;
+	float: left;
+	margin: 0 5px 0 15px;
+}
